@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1000px;
+}
+
+header, footer {
+    height: 150px;
+    background-color: #000000;
+    color: #BFAB74;
+    display:flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+
+}
+
+aside{
+    margin: 20px;
+}
+.main-content{
+    margin: auto 25px;
+}
+
+.resolute-logo{
+    height: 100%;
+}
+
+.navigation{
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: right;
+    color: #BFAB74
+}
+
+.navigation:hover{
+    color: #4B4B4A;
+}
+
